@@ -6,8 +6,21 @@ class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            data: []
+            data: [],
+            query: 'Macedonia',
+            page: 1
         }
+    }
+
+    componentDidMount() {
+        axios.get(`api/events?q=${this.state.query}&_page=${this.state.page}`)
+        .then((results) => {
+            this.setState({ data: results.data })
+            console.log('success: ', this.state.data);
+        })
+        .catch((err) => {
+            console.log(err);
+        })
     }
 
     render() {
