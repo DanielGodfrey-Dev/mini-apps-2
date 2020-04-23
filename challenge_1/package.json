@@ -1,6 +1,6 @@
 {
   "name": "challenge_1",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "historical events finder",
   "privtate": true,
   "scripts": {
@@ -10,7 +10,13 @@
     "react-dev": "webpack --watch -d",
     "start-dev": "nodemon ./server/server.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanielGodfrey-Dev/hrsf126-mini-apps-2/tree/master/challenge_1"
+  },
+  "keywords": [
+    "history"
+  ],
   "author": "DanielGodfrey-Dev",
   "license": "ISC",
   "devDependencies": {
