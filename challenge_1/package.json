@@ -1,0 +1,16 @@
+{
+  "name": "challenge_1",
+  "version": "1.0.1",
+  "description": "historical events finder",
+  "privtate": true,
+  "scripts": {
+    "start": "node ./server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "DanielGodfrey-Dev",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.16.1"
+  }
+}
