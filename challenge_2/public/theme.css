@@ -1,0 +1,9 @@
+html {
+    background-image: url('crypto.jpg');
+}
+
+body {
+    color: whitesmoke;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
