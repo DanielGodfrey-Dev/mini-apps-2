@@ -1,18 +1,18 @@
 const path = require('path');
-const SRC_DIR = '/client';
-const DIST_DIR = '/public';
+const SRC_DIR = path.join(__dirname, '/client');
+const DIST_DIR = path.join(__dirname, '/public');
 
 module.exports = {
   entry: `${SRC_DIR}/app.jsx`,
   output: {
-    path: path.resolve(__dirname, `${DIST_DIR}`),
+    path: `${DIST_DIR}`,
     filename: 'app.js'
   },
   module: {
     rules: [
       { test: /\.jsx$/, 
         include: SRC_DIR, 
-        use: 'babel-loader',
+        loader: 'babel-loader',
         query: {
             presets: ['@babel/preset-react', '@babel/preset-env']
         }
