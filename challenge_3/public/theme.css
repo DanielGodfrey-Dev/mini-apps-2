@@ -1,0 +1,10 @@
+html {
+    background-image: url(bowling.jpeg);
+    background-size: cover;
+}
+
+body {
+    color: white;
+    font-size: 72px;
+    font-family: fantasy;
+}
