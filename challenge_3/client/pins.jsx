@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Pin from './pin.jsx';
+import styles from './CSS/pins.css';
 
 const Pins4 = ({ knock }) => {
 
@@ -9,7 +10,7 @@ const Pins4 = ({ knock }) => {
     );
     
     return (
-        <div>{pins}</div>
+        <div className={styles.centered}>{pins}</div>
     );
 };
 
@@ -20,7 +21,7 @@ const Pins3 = ({ knock }) => {
     );
 
     return (
-        <div>{pins}</div>
+        <div className={styles.centered}>{pins}</div>
     );
 };
 
@@ -31,7 +32,7 @@ const Pins2 = ({ knock }) => {
     );
 
     return (
-        <div>{pins}</div>
+        <div className={styles.centered}>{pins}</div>
     );
 };
 
@@ -42,7 +43,7 @@ const Pins1 = ({ knock }) => {
 );
 
     return (
-        <div>{pins}</div>
+        <div className={styles.centered}>{pins}</div>
     );
 };
 

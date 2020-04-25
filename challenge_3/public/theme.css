@@ -1,10 +1,10 @@
 html {
-    background-image: url(bowling.jpeg);
+    background-image: url(bowling.png);
     background-size: cover;
 }
 
 body {
-    color: white;
+    color: rgb(59, 188, 240);
     font-size: 72px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
