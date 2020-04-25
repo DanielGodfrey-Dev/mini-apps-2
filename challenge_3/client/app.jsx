@@ -21,7 +21,7 @@ class App extends React.Component {
 
         return (
             <div className={styles.centered}>
-                <div style={{ color: 'white' }}>...LET'S BOWL</div>
+                <div style={{ color: 'white' }}>Wine Bowling</div>
                 <Pins4 knock={this.state.pins[0]} />
                 <Pins3 knock={this.state.pins[1]} />
                 <Pins2 knock={this.state.pins[2]} />
