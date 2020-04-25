@@ -1,0 +1,10 @@
+html {
+    background-image: url(bowling.jpg);
+    background-size: cover;
+}
+
+body {
+    color: rgb(59, 188, 240);
+    font-size: 96px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
